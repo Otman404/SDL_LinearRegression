@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="LinearRegression_SDL" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/LinearRegression_SDL" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="C:/Users/Outhm/Desktop/ENSET/C/s2/LinearRegression/SDL_ttf-2.0.11/include" />
+					<Add directory="C:/Users/Outhm/Desktop/ENSET/C/s2/LinearRegression/SDL2-2.0.12/i686-w64-mingw32/include" />
+				</Compiler>
+				<Linker>
+					<Add directory="C:/Users/Outhm/Desktop/ENSET/C/s2/LinearRegression/SDL2-2.0.12/i686-w64-mingw32/lib/sdl_ttf/lib" />
+					<Add directory="C:/Users/Outhm/Desktop/ENSET/C/s2/LinearRegression/SDL2-2.0.12/i686-w64-mingw32/lib/sdl_ttf/lib/x64" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/KNN_SDL" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add directory="C:/Users/Outhm/Desktop/ENSET/C/s2/SDL2-devel-2.0.12-mingw/SDL2-2.0.12/i686-w64-mingw32/include" />
+			<Add directory="C:/Users/Outhm/Desktop/ENSET/C/s2/LinearRegression/SDL_ttf-2.0.11/include" />
+		</Compiler>
+		<Linker>
+			<Add option="-lmingw32 -lSDL2main -lSDL2" />
+			<Add directory="C:/Users/Outhm/Desktop/ENSET/C/s2/SDL2-devel-2.0.12-mingw/SDL2-2.0.12/i686-w64-mingw32/lib" />
+			<Add directory="C:/Users/Outhm/Desktop/ENSET/C/s2/LinearRegression/SDL_ttf-2.0.11/lib/x64" />
+		</Linker>
+		<Unit filename="../LinearRegression.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../LinearRegression.h" />
+		<Unit filename="../main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
